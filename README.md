@@ -27,3 +27,15 @@ As part of the data requested by our client, we examined manufacturing lot data 
 ![Lot Summary]()
 
 At first, it would appear variance is within acceptable levels. After grouping by manufacturing lot, it appears Lot 3 had unacceptable levels of variance in PSI and should be addressed to maintain compliance with established manufacturing standards. 
+
+## T-Tests on Suspension Coils
+
+Because of the wide variance in Lot 3, we found it necessary to perform T tests accross the data groups to determine relative variation amongst the groups and the mean of all PSI readings. We began with a basic T test of the entire data set against the mean of the set.
+
+![Total vs Mean]()
+
+Here we see a T value of 0, implying no difference in variations. This makes sense, as the mean of our PSI data is derived from the PSI dataset we are sampling from. We can say with 95% confidence that samples will fall 4.6 units above or below the mean. 
+
+![Lot3 T Test]()
+
+When looking at Lot3 however, we get the highest T value of all three groups - 1.1632 - implying a relatively high degree of variance between Lot 3 samples and the mean of the full set. Here our confidence interval spans from 2.1965 units below the mean and 7.4757 units above the mean. This informs us that PSIs for Lot 3 had significant variance above the mean of the total data. 

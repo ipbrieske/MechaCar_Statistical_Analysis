@@ -17,5 +17,5 @@ summary(mpg_lm)`
 
 ![MPG linear model]()
 
-We determined that of our variables, vehicle length and ground clearance had the lowest p values, and thus the highest degree of relationship with changes in MPG. This is to say we reject our null hypothesis. 
+We determined that of our variables, vehicle length and ground clearance had the lowest p values, and thus the highest degree of relationship with changes in MPG. This represents a non-random amount of variance between these variables and MPG. This also implies a non-zero slope to the linear regression. With beta coefficients of 6.3 and 3.5 for vehicle length and ground clearance, a strong positive correlation can be seen.This is to say we reject our null hypothesis for both these variables. 
 

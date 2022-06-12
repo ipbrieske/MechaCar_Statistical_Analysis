@@ -39,3 +39,16 @@ Here we see a T value of 0, implying no difference in variations. This makes sen
 ![Lot3 T Test]()
 
 When looking at Lot3 however, we get the highest T value of all three groups - 1.1632 - implying a relatively high degree of variance between Lot 3 samples and the mean of the full set. Here our confidence interval spans from 2.1965 units below the mean and 7.4757 units above the mean. This informs us that PSIs for Lot 3 had significant variance above the mean of the total data. 
+
+The remaining T Test results are available in the Images folder. 
+
+## Study Design: MechaCar vs Competition
+
+After presenting this information, we were posed with the question: 
+- How does MechaCar perform against their competition?
+
+To answer this question, we will outline the suggested next steps. This report is open for completion. 
+
+To assess this question, we have to define MechaCar's competition, and then find metrics to compare. MechaCar manufactures personal vehicles and sells from an inventory of vehicles. Because the company already maintains data on MPG for their vehicles, that would be an excellent metric to measure against the competition. 
+
+Using publically available data, MechaCar could assemble a list of profiles on auto companies, detailing their vehicle length, vehicle weight, spoiler angle, ground clearance, and drivetrain. MechaCar would run a series of linear regressions similar to the ones run here on each company's data and then compare the coefficients of significant variables. In doing so, they would determine which companies were able to produce a higher MPG by increasing the relevant significant variables. If a competitor is able to increase vehicle efficiency more by increasing vehicle length by the same amount, for example, looking at how and why they were able to outperform MechaCar in regards to vehicle length modifications could provide invaluable design insight. The converse is also valuable: if MechaCar is able to squeeze out a higher MPG by increasing ground clearance than it's competitors, looking into how to specialize in that advantage would be rewarding. 
